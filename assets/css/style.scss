@@ -158,40 +158,14 @@ ul {
 	}
 }
 
-.fs-48 {
-	font-size: 48px;
-	line-height: 1.3em;
-	@media (max-width: 1399px) {
-		font-size: 44px;
-	}
-	@media (max-width: 1199px) {
-		font-size: 38px;
-	}
-	@media (max-width: 991px) {
-		font-size: 32px;
-	}
-	@media (max-width: 767px) {
-		font-size: 26px;
-	}
+.fs-32 {
+	font-size: 32px;
+	line-height: 1.75em;
 }
 
-.fs-56 {
-	font-size: 56px;
-	line-height: 1.3em;
-	@media (max-width: 1399px) {
-		font-size: 48px;
-	}
-	@media (max-width: 1199px) {
-		font-size: 41px;
-	}
-	@media (max-width: 991px) {
-		font-size: 34px;
-		line-height: 1.4em;
-	}
-	@media (max-width: 767px) {
-		font-size: 30px;
-		line-height: 1.4em;
-	}
+.fs-40 {
+	font-size: 40px;
+	line-height: 1.35em;
 }
 
 .section-padding-120 {
