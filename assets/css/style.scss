@@ -21,6 +21,7 @@ body {
 	--light-blue: #efeff6;
 	--secondary-yellow: #f7b112;
 	--light-yellow: #faf7ef;
+	--light-gay:#EEEEF1;
 	--gray-1: #3f3e4e;
 	--gray-2: #cbcae1;
 	--gray-3: #47437B;
@@ -107,6 +108,9 @@ ul {
 
 .bg-light-yellow {
 	background-color: var(--light-yellow);
+}
+.bg-light-gray {
+	background-color: var(--light-gay);
 }
 
 // colors class - End
@@ -436,7 +440,6 @@ ul {
 
 .yellow-fill-btn {
 	padding: 15px 31px;
-	border-radius: 100px;
 	transition: all 200ms ease-in-out;
 	border: 1px solid var(--secondary-yellow);
 	display: inline-block;
@@ -451,9 +454,8 @@ ul {
 	}
 }
 
-.minimal-border-btn {
+.blue-btn {
 	padding: 15px 31px;
-	border-radius: 100px;
 	transition: all 200ms ease-in-out;
 	border: 1px solid var(--primary-blue);
 	display: inline-block;
