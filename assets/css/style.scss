@@ -24,6 +24,7 @@ body {
 	--gray-1: #3f3e4e;
 	--gray-2: #cbcae1;
 	--gray-3: #47437B;
+	--gray-4: #494675;
 }
 
 .container {
@@ -87,6 +88,9 @@ ul {
 
 .text-gray-2 {
 	color: var(--gray-2);
+}
+.text-gray-4 {
+	color: var(--gray-4);
 }
 
 .bg-primary-blue {
