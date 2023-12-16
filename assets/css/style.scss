@@ -313,7 +313,14 @@ ul {
 		padding: 0 15px;
 	}
 }
-
+.common-title{
+	max-width: 630px;
+	width: 100%;
+	margin: auto;
+}
+.treatment-wrap{
+	margin-top: 40px;
+}
 /*--- Header menubar -/Start ---*/
 .header-navbar-wrap {
 	max-width: 1370px;
@@ -807,16 +814,16 @@ ul {
 
 
 
+/*--- treatment-wrap -/Start ---*/
+.treatment-wrap{
+	.treatment-item{
+		padding: 48px;
+		background-color: #fff;
 
-
-
-
-/*========================================
-
---- Home version 02 - Start
-
-========================================*/
-
-/*--- Home version 02 -/Start ---*/
-
-/*--- Home version 02 -/End ---*/
+		.tt-title{
+			margin-top: 40px;
+			margin-bottom: 20px;
+		}
+	}
+}
+/*--- Htreatment-wrap -/End ---*/
